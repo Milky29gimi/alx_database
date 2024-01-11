@@ -1,7 +1,7 @@
 -- create a table
 
-CREATE TABLES first_table (
-    column1 INT,
-    column2 VARCHAR(50),
-    column3 DATE
+CREATE TABLE your_table_name (
+    id INT PRIMARY KEY,
+    name VARCHAR(255),
+    age INT
 );
