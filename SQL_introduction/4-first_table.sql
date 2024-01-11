@@ -13,7 +13,7 @@ IF  [ $# -eq 0 ]; THEN
     exit 1
 fi
 
-DATABASE NANE IS first argument
+DATABASE NANE IS FIRST  argument
 db_name=$1
 
 # SQL query to create the table
