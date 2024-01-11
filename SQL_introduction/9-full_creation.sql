@@ -1,11 +1,14 @@
---a script that creates a table second_table in the database
-
-CREATE TABLES IF NOT EXISTS $db_name.$table_name (
-    id INT PRIMARY KEY,
-    description VARCHAR(256)
+-- creating entire table 
+CREATE TABLE IF NOT EXISTS second_table (
+    id INT,
+    name VARCHAR(256),
+    score INT
 );
 
-INSERT INTO $db_name.$table_name (id, description) VALUES
-    (1, 'Row 1 Description'),
-    (2, 'Row 2 Description'),
-    (3, 'Row 3 Description');
+-- adding values to the table
+
+INSERT INTO second_table 
+VALUES (1, "John", 10), 
+       (2, "Alex", 3), 
+       (3, "Bob", 14), 
+       (4, "George", 8);
