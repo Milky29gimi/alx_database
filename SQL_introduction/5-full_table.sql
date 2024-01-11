@@ -3,4 +3,4 @@
 SELECT COLUMN_NAME, COLUMN_TYPE
        FROM information_schema.columns
        WHERE table_schema = '$db_name'
-       AND table_name = '$table_name';"
+       AND table_name = '$table_name';
