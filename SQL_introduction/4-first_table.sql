@@ -1,5 +1,12 @@
 -- create a table
 
+CREATE TABLE first_table (
+    column1 INT,
+    column2 VARCHAR(50),
+    column3 DATE
+);
+
+
 CHECK IF  the DATABASE NANE IS PROVIDED AS AN ARGUMENT  
 IF  [ $# -eq 0 ]; THEN 
     ECO "Usage: $0 <database_name>"
