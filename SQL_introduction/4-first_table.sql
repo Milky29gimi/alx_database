@@ -1,12 +1,12 @@
-#!/bin/bash
+-- create a table
 
-# Check if the database name is provided as an argument
-if [ $# -eq 0 ]; then
-    echo "Usage: $0 <database_name>"
+CHECK IF  the DATABASE NANE IS PROVIDED AS AN ARGUMENT  
+IF  [ $# -eq 0 ]; THEN 
+    ECO "Usage: $0 <database_name>"
     exit 1
 fi
 
-# Database name is the first argument
+DATABASE NANE IS first argument
 db_name=$1
 
 # SQL query to create the table
