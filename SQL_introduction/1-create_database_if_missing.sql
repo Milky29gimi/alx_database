@@ -1,4 +1,4 @@
--- create a user on DATABASE
+-- create a script DATABASE
 
-CREATE DATABASE ' hbtn_0c_0 '@'localhost';
+CREATE DATABASE IF NOT EXISTS hbtn_0c_0; 
 
