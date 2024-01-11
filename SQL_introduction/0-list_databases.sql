@@ -1,4 +1,4 @@
 -- show/ lost database
 
-SHOW  DATABASE IF NOT EXISTS;
+SHOW DATABASES IF NOT EXISTS;
 
