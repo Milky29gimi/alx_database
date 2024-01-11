@@ -1,4 +1,4 @@
--- show/ lost database
+-- show a script that lists all the tables of a databasedatabase
 
-SHOW DATABASES;
+SHOW  DATABASE IF NOT EXISTS;
 
